@@ -52,7 +52,7 @@ def answer(var, *args):
 
 
 for i in range(10):
-    var = 6
+    var = randint(1, 6)
     if var == 1:
         tp1 = randint(0, 1)
         # Даём данные в Кб или в Мб
